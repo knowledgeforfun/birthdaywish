@@ -673,55 +673,23 @@ opacity:.4;
 /*============================================*/
 
 .wax-seal{
-
-    position:absolute;
-
-    left:50%;
-
-    top:82px;
-
-    transform:translateX(-50%);
-
-    width:64px;
-
-    height:64px;
-
+    width:80px;
+    height:80px;
     border-radius:50%;
-
-    background:
-
-    radial-gradient(circle,
-
-    #ff6d6d,
-
-    #b00000);
-
+    background:#d61d1d;
     display:flex;
-
     justify-content:center;
-
     align-items:center;
+    overflow:hidden;
+    border:4px solid gold;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
 
-    color:gold;
-
-    font-weight:700;
-
-    font-size:24px;
-
-    font-family:'Cinzel',serif;
-
-    border:3px solid rgba(255,215,0,.8);
-
-    box-shadow:
-
-    0 8px 25px rgba(0,0,0,.35),
-
-    inset 0 2px 8px rgba(255,255,255,.3);
-
-    z-index:10;
-
-    transition:.6s;
-
+.wax-seal img{
+    width:68%;
+    height:68%;
+    object-fit:contain;
+    border-radius:50%;
 }
 
 .wax-seal:hover{
