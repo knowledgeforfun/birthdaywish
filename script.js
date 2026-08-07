@@ -1092,9 +1092,8 @@ const body=document.body;
 TYPEWRITER
 ========================*/
 
-const messageText=
-
-"🎉 Happy Birthday! Wishing You Success, Happiness & Prosperity 🎉";
+const messageText =
+"🎉 Happy Birthday Ashvin Sir! Wishing you endless success, happiness, good health and many more achievements. Have a wonderful year ahead! 🎂🥳";
 
 function typeWriter(){
 
