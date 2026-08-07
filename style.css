@@ -673,6 +673,11 @@ opacity:.4;
 /*============================================*/
 
 .wax-seal{
+  position: absolute;
+  top: 50%; /* ya flap ke tip point par adjust karein */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
     width:80px;
     height:80px;
     border-radius:50%;
